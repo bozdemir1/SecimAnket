@@ -13,7 +13,7 @@ Burada üyeliğiniz var ise bilgileri gereken yerleri girmeniz yeterli olacaktı
 
 
 ###Class IMVerify {
-    const IM_PUBLIC_KEY = 'xxxx'; // Iletimerkezi api public key, panel ustunden olusturabilirsiniz.
+############const IM_PUBLIC_KEY = 'xxxx'; // Iletimerkezi api public key, panel ustunden olusturabilirsiniz.############
     const IM_SECRET_KEY = 'xxxx.'; // Iletimerkezi api secret key, panel ustunden olusturabilirsiniz.
     const IM_SENDER = 'xxxxI'; // Mesajin iletilecegi baslik bilgisi.
 
