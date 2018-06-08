@@ -68,8 +68,7 @@ Burada üyeliğiniz var ise bilgileri gereken yerleri girmeniz yeterli olacaktı
     }
 
 }
-
-####im = new IMVerify();
+im = new IMVerify();
 $im->send($gsm); // Kullanicinin telefonuna dogrulama kodunu uretir ve gonderir.
 
 
