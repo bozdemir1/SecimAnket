@@ -10,8 +10,9 @@ Ayar kısmında ayar ekleme,düzenleme,silme işlemleri yapılabilmektedir.
 ##Sms işlemleri
 Kullandığınız sistemin bir apisi muhtemelen vardır fakat burda kullanılan api ileti merkezine aittir.
 Burada üyeliğiniz var ise bilgileri gereken yerleri girmeniz yeterli olacaktır
-Class IMVerify {
 
+
+Class IMVerify {
     const IM_PUBLIC_KEY = 'xxxx'; // Iletimerkezi api public key, panel ustunden olusturabilirsiniz.
     const IM_SECRET_KEY = 'xxxx.'; // Iletimerkezi api secret key, panel ustunden olusturabilirsiniz.
     const IM_SENDER = 'xxxxI'; // Mesajin iletilecegi baslik bilgisi.
@@ -67,14 +68,18 @@ Class IMVerify {
     }
 
 }
-
+#####
 $im = new IMVerify();
 $im->send($gsm); // Kullanicinin telefonuna dogrulama kodunu uretir ve gonderir.
+#####
+
 
 ## Seçim Anket
 ![Seçim Anket] https://i.hizliresim.com/VDllAZ.jpg
 "Seçim Anket Görünümü")
 
+##Seçim Anket Demo 
+(https://secimanket.salihbozdemir.com/)
 
 ## Dahil olan pluginler vs. :
 * Bootstrap
