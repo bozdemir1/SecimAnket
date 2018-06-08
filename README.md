@@ -7,12 +7,12 @@ Yönetim paneli tarafında adaylar tarafında adayları sürekle&bırak yaparak 
 işlemleri yapılabilmektedir.
 Ayar kısmında ayar ekleme,düzenleme,silme işlemleri yapılabilmektedir.
 
-##Sms işlemleri
+###Sms işlemleri
 Kullandığınız sistemin bir apisi muhtemelen vardır fakat burda kullanılan api ileti merkezine aittir.
 Burada üyeliğiniz var ise bilgileri gereken yerleri girmeniz yeterli olacaktır.
 
-
-### Class IMVerify {
+### API
+Class IMVerify {
     const IM_PUBLIC_KEY = 'xxxx'; // Iletimerkezi api public key, panel ustunden olusturabilirsiniz.
     const IM_SECRET_KEY = 'xxxx.'; // Iletimerkezi api secret key, panel ustunden olusturabilirsiniz.
     const IM_SENDER = 'xxxxI'; // Mesajin iletilecegi baslik bilgisi.
