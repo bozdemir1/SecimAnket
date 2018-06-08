@@ -1,0 +1,14 @@
+RewriteEngine on
+RewriteCond %{SERVER_PORT} !=443
+RewriteCond %{REQUEST_URI} !^[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\Comodo\ DCV)?$
+RewriteRule ^ https://secimanket.salihbozdemir.com%{REQUEST_URI}[NS,R,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_URI} !^[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\Comodo\ DCV)?$
+RewriteRule ^(.*)$ $1.php
+
+#404
+ErrorDocument 404 https://secimanket.salihbozdemir.com/404.php
