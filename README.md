@@ -72,9 +72,6 @@ im = new IMVerify();
 $im->send($gsm); // Kullanicinin telefonuna dogrulama kodunu uretir ve gonderir.
 
 
-## Seçim Anket
-[https://i.hizliresim.com/VDllAZ.jpg]
-"Seçim Anket Görünümü")
 
 ##Seçim Anket Demo 
 [https://secimanket.salihbozdemir.com/]
