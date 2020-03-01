@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: localhost:3306
--- Üretim Zamanı: 01 Mar 2020, 22:32:19
+-- Üretim Zamanı: 01 Mar 2020, 22:50:46
 -- Sunucu sürümü: 10.0.38-MariaDB
 -- PHP Sürümü: 7.2.7
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Veritabanı: `ersamobi_secimanket`
+-- Veritabanı: `ersamobi_test`
 --
 
 -- --------------------------------------------------------
@@ -106,28 +106,7 @@ CREATE TABLE `oy` (
 --
 
 INSERT INTO `oy` (`oy_id`, `oy_zaman`, `aday_id`, `oy_araci`) VALUES
-(51, '2018-06-08 14:44:24', 6, 'iletisim@salihbozdemir.com'),
-(50, '2018-06-08 14:44:24', 4, 'iletisim@salihbozdemir.com'),
-(49, '2018-06-08 14:44:24', 4, 'iletisim@salihbozdemir.com'),
-(48, '2018-06-08 14:44:24', 6, 'iletisim@salihbozdemir.com'),
-(47, '2018-06-08 14:44:24', 6, 'iletisim@salihbozdemir.com'),
-(46, '2018-06-08 14:44:24', 4, 'iletisim@salihbozdemir.com'),
-(45, '2018-06-08 14:44:24', 4, 'iletisim@salihbozdemir.com'),
-(44, '2018-06-08 14:44:24', 6, 'iletisim@salihbozdemir.com'),
-(43, '2018-06-08 14:44:24', 6, 'iletisim@salihbozdemir.com'),
-(41, '2018-06-08 14:44:24', 1, 'iletisim@salihbozdemir.com'),
-(40, '2018-06-08 14:44:24', 3, 'iletisim@salihbozdemir.com'),
-(39, '2018-06-08 14:44:24', 4, 'iletisim@salihbozdemir.com'),
-(42, '2018-06-08 14:44:24', 3, 'iletisim@salihbozdemir.com'),
-(38, '2018-06-08 14:44:24', 3, 'iletisim@salihbozdemir.com'),
-(52, '2018-06-08 15:28:13', 3, 'chuckturkey9999@gmail.com'),
-(53, '2018-06-08 16:47:39', 6, 'gkhnsgnc@gmail.com'),
-(54, '2018-10-01 02:10:27', 1, 'salihbozdemir1@gmail.com'),
-(55, '2019-03-30 19:39:40', 3, 'peksenmedya@gmail.com'),
-(56, '2019-05-26 02:23:41', 1, 'pimazac@mailsource.info'),
-(57, '2020-02-10 13:48:39', 3, 'kubilayyildirim96@gmail.com'),
-(58, '2020-02-13 12:48:09', 3, 'ahmetpehlivan@hotmail.com.tr'),
-(59, '2020-03-01 20:09:58', 3, 'canerguleer@hotmail.com');
+(51, '2018-06-08 14:44:24', 6, 'test@test.com');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
