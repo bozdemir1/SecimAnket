@@ -73,9 +73,6 @@ $im->send($gsm); // Kullanicinin telefonuna dogrulama kodunu uretir ve gonderir.
 
 
 
-##Seçim Anket Demo 
-[https://secimanket.salihbozdemir.com/]
-
 ## Dahil olan pluginler vs. :
 * Bootstrap
 * Font Awesome
