@@ -7,7 +7,7 @@ require_once 'admin/ayarlar/islem.php';
 <div class="container">
     <!-- Introduction Row -->
     <h1 class="my-4">Seçim Anketi</h1>
-    <p>Basit bir oy verme ve oy sonuçlarının görüntülenebildiği anket scripti.Test amacıyla oy verip sistemi deneyebilirsiniz.</p>
+    <p>Basit bir oy verme ve oy sonuçlarının görüntülenebildiği anket scripti.</p>
     <!-- Team Members Row -->
     <div class="row">
         <div class="col-lg-12">
